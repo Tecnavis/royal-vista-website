@@ -25,7 +25,24 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 
+
+    <style>
+        /* Styling for the scrolling widget */
+        .scrolling-widget {
+            background-color: #faeeee;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    </style>
+
 </head>
+
+
 
 
 <body id="top">
@@ -42,12 +59,22 @@
     ================================================== -->
     <div id="page" class="s-pagewrap">
 
+        
+
 
         <!-- # site header 
         ================================================== -->
         <header class="s-header">
+            
+  <!-- Scrolling Widget -->
+  <div class="scrolling-widget">
+    <p>Our Services: Service 1, Service 2, Service 3, Service 4, Service 5, Service 6</p>
+</div>
 
             <div class="row s-header__inner">
+
+
+                
 
                 <div class="s-header__block">
                     <div class="s-header__logo">
@@ -59,7 +86,9 @@
                     <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
                 </div> <!-- end s-header__block -->
 
-                <nav class="s-header__nav">
+                
+
+                <nav class="s-header__nav" style="margin-top: 80px;">
     
                     <ul class="s-header__menu-links">
                         <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
